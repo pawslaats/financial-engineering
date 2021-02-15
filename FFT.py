@@ -10,7 +10,7 @@ import scipy.signal
 from scipy.fftpack import fft
 
 # Data from Prof. Evans
-data_df = pd.read_csv('SPY7_25_16_8_2_16.txt', sep=",")
+data_df = pd.read_csv('SPY.txt', sep=",")
 print(data_df.columns)
 print data_df
 AdjClose = data_df[u'Close']
