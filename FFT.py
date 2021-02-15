@@ -15,10 +15,10 @@ print(data_df.columns)
 print data_df
 AdjClose = data_df[u'Close']
 
-# Data From .CSV file
-#data_df = pd.read_csv('AAPL.csv')
-#print(data_df.columns)
-#AdjClose = data_df['AdjClose']
+# AAPL Data From .CSV file
+# data_df = pd.read_csv('AAPL.csv')
+# print(data_df.columns)
+# AdjClose = data_df['AdjClose']
 
 # Detrending Stock Data 
 # AdjCloseTrend = scipy.signal.detrend(AdjClose)
